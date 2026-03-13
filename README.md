@@ -4,7 +4,7 @@
 **A Logic-Based Analysis of Sports Logistics and Geopolitical Shifts**
 
 ## 🎯 The "Accidental Analyst" Origin
-A few weeks ago, I booked a holiday to **Bangkok (April 26 – May 1)**. Shortly after, the AFC announced that the West Region matches were postponed due to regional instability. 
+A few days ago, I booked a holiday to **Bangkok (April 26 – May 1)**. Shortly after, the AFC announced that the West Region matches were postponed due to regional instability. 
 
 As someone currently learning data analytics, I saw this as a perfect "real-world" case study. I wanted to see if I could use logic and basic programming to predict if the ACLE Finals would move to the same city I’m visiting.
 
