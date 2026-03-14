@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # ACLE 2026: The Bangkok Venue Pivot Model 🇹🇭⚽
 
 **A predictive Python model analyzing the strategic relocation of the AFC Champions League Elite Finals due to regional geopolitical instability.**
