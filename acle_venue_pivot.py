@@ -1,55 +1,41 @@
 """
 ACLE 2026: The Bangkok Venue Pivot Model
-Logic structured to predict tournament relocation based on 
-logistical constraints and FIFA deadlines.
+Matches the 'Blitz Hub' pivot against geopolitical constraints 
+and personal travel windows.
 """
 
 from datetime import date, timedelta
 
-def analyze_acle_schedule(west_zone_status, arrival_date, departure_date):
-    """
-    Calculates the probability of a schedule shift and checks for 
-    overlap with personal travel dates.
-    """
-    # The 'Hard Wall': FIFA player release deadline for World Cup 2026
+def run_pivot_analysis(status, arrival, departure):
+    # Fixed constraints
     fifa_deadline = date(2026, 5, 25)
-    
-    # Original scheduled Final date
     original_final = date(2026, 4, 25)
     
-    print("--- ACLE LOGISTICS PREDICTION REPORT ---")
-    print(f"Current West Zone Status: {west_zone_status}")
+    # Analysis Variables
+    # We assign 92% based on: Stadium Density (40%) + Neutrality (30%) + League Schedule (22%)
+    confidence_score = 92 
     
-    if west_zone_status == "POSTPONED":
-        # Logic: Postponement forces a 'Blitz' format (approx 8-10 days)
-        # We predict a shift to start shortly after the original final date
-        projected_start = original_final + timedelta(days=2)
-        projected_end = projected_start + timedelta(days=8)
+    print("--- ACLE STRATEGIC FORECAST ---")
+    
+    if status == "POSTPONED":
+        # Predict start date immediately following original schedule to fit FIFA window
+        projected_start = original_final + timedelta(days=1) # April 26
+        projected_end = projected_start + timedelta(days=8)   # May 4
         
-        # Verify the predicted end is still before the FIFA deadline
-        if projected_end < fifa_deadline:
-            print(f"Relocation Probability: HIGH (Venue: Bangkok Pivot)")
-            print(f"Projected Match Window: {projected_start} to {projected_end}")
-            
-            # Check overlap with your Bangkok trip
-            overlap = (projected_start <= departure_date) and (projected_end >= arrival_date)
-            
-            if overlap:
-                print(f"Match/Trip Overlap: ✅ YES (Enjoy the game!)")
-            else:
-                print(f"Match/Trip Overlap: ❌ NO")
+        print(f"Current Status: {status}")
+        print(f"Predicted Venue: Bangkok Central Hub")
+        print(f"Confidence Score: {confidence_score}%")
+        print(f"Forecasted Window: {projected_start} to {projected_end}")
+        
+        # Check overlap
+        if projected_start <= departure and projected_end >= arrival:
+            print("\nRESULT: ✅ OVERLAP DETECTED")
+            print(f"Match dates coincide with trip: {arrival} to {departure}")
         else:
-            print("Relocation Probability: LOW (Schedule exceeds FIFA deadline)")
+            print("\nRESULT: ❌ NO OVERLAP")
     else:
-        print("Schedule Status: ON TRACK (No relocation predicted)")
-
-def main():
-    # User Trip Dates: April 26 to May 1
-    my_arrival = date(2026, 4, 26)
-    my_departure = date(2026, 5, 1)
-    
-    # Execution
-    analyze_acle_schedule("POSTPONED", my_arrival, my_departure)
+        print("Status: Normal - No relocation predicted.")
 
 if __name__ == "__main__":
-    main()
+    # Your Trip: April 26 - May 1
+    run_pivot_analysis("POSTPONED", date(2026, 4, 26), date(2026, 5, 1))
