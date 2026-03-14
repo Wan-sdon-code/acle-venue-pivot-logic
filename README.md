@@ -33,6 +33,8 @@ The model weighs Thailand against other regional candidates (like Japan or Qatar
 * **Relocation Probability:** **High (92% Confidence)**
 * **Travel Overlap:** ✅ **Confirmed** (Personal trip matches predicted window)
 
+* “This project was developed through an AI-assisted workflow, leveraging Gemini 3 Flash for logic structuring and Python syntax refinement.”
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Core Logic:** `datetime` library for ripple-effect scheduling and constraint-based forecasting.
