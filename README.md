@@ -29,4 +29,4 @@ The model evaluates three critical "pressure points" that necessitate a venue sh
 ## 🚀 How to Run
 To run the analysis locally:
 ```bash
-python acle_venue_pivot.py
+acle_venue_pivot.py
