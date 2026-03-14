@@ -34,13 +34,13 @@ The model weighs Thailand against other regional candidates (like Japan or Qatar
 * **Projected Match Window:** April 26 – May 4, 2026
 * **Relocation Probability:** **High (92% Confidence)**
 * **Travel Overlap:** ✅ **Confirmed** (Personal trip matches predicted window)
-
-* “This project was developed through an AI-assisted workflow, leveraging Gemini 3 Flash for logic structuring and Python syntax refinement.”
+  
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Core Logic:** `datetime` library for ripple-effect scheduling and constraint-based forecasting.
 * **Collaboration:** Developed with **Gemini 3 Flash** for logic structuring.
+* This project was developed through an AI-assisted workflow, leveraging Gemini 3 Flash for logic structuring and Python syntax refinement.
 
 ## 🚀 How to Run
 To run the analysis and verify the overlap logic:
