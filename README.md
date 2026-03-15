@@ -39,7 +39,6 @@ The model weighs Thailand against other regional candidates (like Japan or Qatar
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Core Logic:** `datetime` library for ripple-effect scheduling and constraint-based forecasting.
-* **Collaboration:** Developed with **Gemini 3 Flash** for logic structuring.
 * This project was developed through an AI-assisted workflow, leveraging Gemini 3 Flash for logic structuring and Python syntax refinement.
 
 ## 🚀 How to Run
