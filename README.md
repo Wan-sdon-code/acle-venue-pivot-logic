@@ -39,9 +39,6 @@ The model evaluates three critical variables that necessitate a venue shift:
 * 🤖 AI Attribution
 This research and the resulting predictive model were developed through an AI-assisted workflow.(Gemini 3 Flash)
 
-# Clone the repository
-git clone https://github.com/your-username/acle-venue-pivot.git
-
 ### How to Run:
 ```bash
 acle_venue_pivot.py
