@@ -42,8 +42,6 @@ This research and the resulting predictive model were developed through an AI-as
 # Clone the repository
 git clone https://github.com/your-username/acle-venue-pivot.git
 
-# Enter the directory
-cd acle-venue-pivot
-
-# Run the analysis
+### How to Run:
+```bash
 acle_venue_pivot.py
