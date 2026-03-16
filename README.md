@@ -7,7 +7,7 @@
 ---
 
 ## 📖 Project Origin
-A few days ago, I booked a holiday to Bangkok for **April 26 – May 1, 2026**. 
+I booked a holiday to Bangkok for **April 26 – May 1, 2026**. 
 
 Simultaneously, the ACLE West Zone matches faced indefinite postponement. Instead of waiting for official news, I developed this model to determine if the tournament would pivot to my destination—transforming a personal holiday into a front-row seat at one of Asia's biggest sporting events.
 
@@ -19,8 +19,6 @@ The model evaluates three critical variables that necessitate a venue shift:
 3. **The "Blitz Hub" Necessity:** To finish on time, the AFC must likely shift to a centralized, high-density stadium region to minimize travel and maximize match frequency.
 
 ## 🌏 Why Thailand? (The Logic of Elimination)
-The model weighs Thailand against other regional candidates (like Japan or Qatar):
-
 | Factor | Thailand (Bangkok) | Japan / South Korea |
 | :--- | :--- | :--- |
 | **Stadium Density** | High (Rajamangala, Thammasat, etc.) | High |
@@ -28,20 +26,24 @@ The model weighs Thailand against other regional candidates (like Japan or Qatar
 | **Neutrality** | Highly Accessible | Strict Visa/Logistics |
 | **Geography** | Central to West/East Zone pivot | Far East |
 
-**Conclusion:** Bangkok emerges as the "Path of Least Resistance" for a centralized "Final Eight" format.
+**Conclusion:** Bangkok emerges as the "Path of Least Resistance."
 
-## 📊 Current Forecast
+## 📊 Current Forecast (As of March 16, 2026)
 * **Projected Match Window:** April 26 – May 4, 2026
 * **Relocation Probability:** **High (92% Confidence)**
 * **Travel Overlap:** ✅ **Confirmed** (Personal trip matches predicted window)
-  
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
-* **Core Logic:** `datetime` library for ripple-effect scheduling and constraint-based forecasting.
-* This project was developed through an AI-assisted workflow, leveraging Gemini 3 Flash for logic structuring and Python syntax refinement.
+* **Core Logic:** `datetime` library for constraint-based forecasting.
+* 🤖 AI Attribution
+This research and the resulting predictive model were developed through an AI-assisted workflow.(Gemini 3 Flash)
 
-## 🚀 How to Run
-To run the analysis and verify the overlap logic:
-```bash
-acle_venue_pivot.py
+# Clone the repository
+git clone https://github.com/your-username/acle-venue-pivot.git
+
+# Enter the directory
+cd acle-venue-pivot
+
+# Run the analysis
+python acle_venue_pivot.py
