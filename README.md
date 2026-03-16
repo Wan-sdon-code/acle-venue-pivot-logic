@@ -46,4 +46,4 @@ git clone https://github.com/your-username/acle-venue-pivot.git
 cd acle-venue-pivot
 
 # Run the analysis
-python acle_venue_pivot.py
+acle_venue_pivot.py
