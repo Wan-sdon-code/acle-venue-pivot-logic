@@ -1,44 +1,55 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# ACLE 2026: The Bangkok Venue Pivot Model 🇹🇭⚽
-
-**A predictive Python model analyzing the strategic relocation of the AFC Champions League Elite Finals due to regional geopolitical instability.**
+# ⚽ ACLE 2026: The "VAR Check" on my Holiday Research
+**Why a last-minute fixture change created a 61% "Fixture Congestion" crisis.**
 
 ---
 
-## 📖 Project Origin
-I booked a holiday to Bangkok for **April 26 – May 1, 2026**. 
+## 📌 The "Away Trip" Discovery
+I am heading to **Bangkok** from **April 26 to May 1, 2026**. While researching things to do, I thought I’d be able to catch some **AFC Champions League Elite (ACLE)** action locally. 
 
-Simultaneously, the ACLE West Zone matches faced indefinite postponement. Instead of waiting for official news, I developed this model to determine if the tournament would pivot to my destination—transforming a personal holiday into a front-row seat at one of Asia's biggest sporting events.
+However, after a quick "VAR Review" of the official schedule, I found out the AFC shifted the goalposts:
 
-## 🧠 Logic Framework: The "Pressure Points"
-The model evaluates three critical variables that necessitate a venue shift:
+* **New Location:** The finals were moved to a centralized hub in **Jeddah, Saudi Arabia**.
+* **New Format:** They scrapped the "Home & Away" legs for a high-speed **Single-Match Knockout**.
+* **The Timing:** The Grand Final is on **April 25**—meaning I land in Bangkok exactly one day after the trophy lift. 😅
 
-1. **Geopolitical Instability:** Recent regional factors in the West Zone have created a match backlog that traditional scheduling cannot resolve.
-2. **The FIFA "Hard Wall":** International players must be released for World Cup preparation by **May 25, 2026**. This creates a fixed, non-negotiable end-point for the AFC.
-3. **The "Blitz Hub" Necessity:** To finish on time, the AFC must likely shift to a centralized, high-density stadium region to minimize travel and maximize match frequency.
+---
 
-## 🌏 Why Thailand? (The Logic of Elimination)
-| Factor | Thailand (Bangkok) | Japan / South Korea |
+## 📊 The "Scout's Report": Bangkok vs. Jeddah
+I used **Python** to compare my initial thought (Bangkok) against the official reality (Jeddah). 
+
+| Football Term | Bangkok (Initial Thought) | Jeddah (Official Reality) |
 | :--- | :--- | :--- |
-| **Stadium Density** | High (Rajamangala, Thammasat, etc.) | High |
-| **League Conflicts** | Minimal / Managed | **High** (J-League/K-League in peak season) |
-| **Neutrality** | Highly Accessible | Strict Visa/Logistics |
-| **Geography** | Central to West/East Zone pivot | Far East |
+| **Match Format** | Spread out (Home & Away) | **Single-Match Blitz** |
+| **Squad Depth** | 3 Stadiums (Less stress) | **2 Stadiums (High stress)** |
+| **Fixture Congestion** | 7 Matches in 9 Days | **11 Matches in 13 Days** |
+| **Pitch Condition** | ✅ Stable | 🔴 **Critical (Heavy Wear)** |
+| **Trip Result** | ✅ Watching Live | ❌ **Missed by 1 Day** |
 
-**Conclusion:** Bangkok emerges as the "Path of Least Resistance."
+---
 
-## 📊 Current Forecast (As of March 16, 2026)
-* **Projected Match Window:** April 26 – May 4, 2026
-* **Relocation Probability:** **High (92% Confidence)**
-* **Travel Overlap:** ✅ **Confirmed** (Personal trip matches predicted window)
+## 🧪 The "Blitz Density" Index (BDI)
+In football terms, **BDI** is a stat that measures how crowded the fixture list is for a stadium. 
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Core Logic:** `datetime` library for constraint-based forecasting.
-* 🤖 AI Attribution
-This research and the resulting predictive model were developed through an AI-assisted workflow.(Gemini 3 Flash)
+$$BDI = \frac{\text{Total Matches}}{\text{Days} \times \text{Stadiums}}$$
 
-### How to Run:
-```bash
-acle_venue_pivot.py
+**The Result:** Moving to a single-leg format in Jeddah increased the "Fixture Congestion" by **61%**. For a stadium manager, this is a nightmare for pitch recovery and security overlaps.
+
+---
+
+## 🚀 Key Takeaway: "I missed the game, but I didn't miss the data."
+This project shows that even as a fan, you have to check your stats. My research proved that while the "Single-Match" format is exciting, it puts **61% more pressure** on the grass and the staff compared to a spread-out format. 
+
+I might have missed the final whistle in person, but my code caught the real story behind the logistics. 
+
+---
+
+## 📂 Repository Structure
+* `acle_venue_pivot.py`: The original research model.
+* `/scripts/model_jeddah.py`: The updated "Reality Check" model.
+* `/images/`: Visual comparisons of stadium load.
+
+---
+
+
