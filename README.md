@@ -46,7 +46,7 @@ I might have missed the final whistle in person, but my code caught the real sto
 ---
 
 ## 📂 Repository Structure
-* `mode_bangkok.py`: The original research model.
+* `model_bangkok.py`: The original research model.
 * `/scripts/model_jeddah.py`: The updated "Reality Check" model.
 * `/images/`: Visual comparisons of stadium load.
 
