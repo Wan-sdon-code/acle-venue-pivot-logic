@@ -48,8 +48,15 @@ I might have missed the final whistle in person, but my code caught the real sto
 ## 📂 Repository Structure
 * `model_bangkok.py`: The original research model.
 * `model_jeddah.py`: The updated "Reality Check" model.
-* `ACLE.png`: Visual comparisons of stadium load.
 
 ---
+
+
+
+* ![ACLE Load Comparison](ACLE.png)
+
+ VISUAL COMPARISON OF STADIUM LOAD.
+
+
 
 
