@@ -1,54 +1,35 @@
-from datetime import datetime, timedelta
-from collections import namedtuple
+import time
 
-# Data Structures for Analyst Clarity
-Venue = namedtuple('Venue', ['name', 'capacity', 'tier'])
+def run_bangkok_model():
+    print("⚽ STARTING: Bangkok Football Research (The Original Plan)...")
+    time.sleep(1)
 
-def run_pivot_analysis():
-    # 1. Configuration & Constraints
-    holiday_start = datetime(2026, 4, 26)
-    holiday_end = datetime(2026, 5, 1)
-    fifa_hard_wall = datetime(2026, 5, 25)
-    
-    venues = [
-        Venue("Rajamangala", 51000, "Elite"),
-        Venue("Thammasat", 25000, "Standard"),
-        Venue("BG Stadium", 15000, "Boutique")
-    ]
-
-    # 2. Logic: The "Path of Least Resistance" Calculation
-    print("⚽ ACLE 2026: STRATEGIC RELOCATION MODEL")
-    print("="*50)
-    print(f"REPORT GENERATED: {datetime.now().strftime('%Y-%m-%d')}")
-    print(f"TARGET WINDOW:    {holiday_start.strftime('%d %b')} - {holiday_end.strftime('%d %b')}")
-    print("-"*50)
-
-    # Calculate Buffer to FIFA Wall
-    days_to_wall = (fifa_hard_wall - holiday_end).days
-    
-    print(f"STRATEGIC NOTES:")
-    print(f"  [!] FIFA Hard Wall: {fifa_hard_wall.strftime('%Y-%m-%d')}")
-    print(f"  [!] Post-Holiday Buffer: {days_to_wall} days (CRITICAL for backlog clearing)")
-    
-    # 3. Match Density Model
-    # Scenario: 8 Teams, Knockout Format (7 Matches total)
+    # --- Data from your research ---
+    stadiums = 3
     total_matches = 7
-    window_days = 9 # Total tournament duration
-    stadium_count = len(venues)
-    
-    # Matches per Stadium per Day
-    density = total_matches / (window_days * stadium_count)
-    
-    print(f"\nSTADIUM LOGISTICS (BANGKOK HUB):")
-    for v in venues:
-        print(f"  - {v.name:<12} | Cap: {v.capacity:<6} | Tier: {v.tier}")
+    total_days = 9
 
-    print(f"\nPROJECTION DATA:")
-    print(f"  > Blitz Density Index: {density:.2f}")
-    print(f"  > Relocation Probability: 92% (Geopolitical Offset)")
-    print(f"  > Status: TACTICAL OVERLAP CONFIRMED")
-    print("="*50)
-    print("ANALYSIS COMPLETE: EYES UP ON BANGKOK.")
+    print(f"\n📋 THE STATS:")
+    print(f"- Total Stadiums: {stadiums}")
+    print(f"- Total Matches: {total_matches}")
+    print(f"- Time Period: {total_days} Days")
+    time.sleep(1)
+
+    # --- Calculations ---
+    # How many matches per stadium?
+    load_per_stadium = total_matches / stadiums
+    
+    # How many matches happen per day?
+    matches_per_day = total_matches / total_days
+
+    # --- The Result ---
+    print("\n📊 THE ANALYSIS:")
+    print(f"✅ Stadium Load: {load_per_stadium:.2f} matches per stadium.")
+    print(f"✅ Game Speed: {matches_per_day:.2f} matches per day.")
+    
+    print("\n💡 CONCLUSION: The grass has plenty of time to 'heal'.")
+    print("This schedule is EASY for the staff and the pitch.")
+    print("--------------------------------------------------")
 
 if __name__ == "__main__":
-    run_pivot_analysis()
+    run_bangkok_model()
