@@ -32,8 +32,6 @@ I used **Python** to compare my initial thought (Bangkok) against the official r
 ## 🧪 The "Blitz Density" Index (BDI)
 In football terms, **BDI** is a stat that measures how crowded the fixture list is for a stadium. 
 
-$$BDI = \frac{\text{Total Matches}}{\text{Days} \times \text{Stadiums}}$$
-
 **The Result:** Moving to a single-leg format in Jeddah increased the "Fixture Congestion" by **61%**. For a stadium manager, this is a nightmare for pitch recovery and security overlaps.
 
 ---
