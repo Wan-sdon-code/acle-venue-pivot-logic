@@ -1,53 +1,59 @@
-# ⚽ ACLE 2026: A "VAR Check" on my Holiday Plans
-**Why a last-minute change made the stadiums 61% more crowded.**
+# ⚽ Project: ACLE 2026 VAR Check (v1.7)
+
+> **The Logic:** My **Main Task** (Holiday) is a success. My **Bonus Task** (Watching Football) failed because I landed **1 day late**.
 
 ---
 
-## 📌 The "Away Trip" Discovery
-I am going to **Bangkok** from **April 26 to May 1, 2026**. I wanted to watch the **AFC Champions League Elite (ACLE)** games while I was there. 
+## 🕹️ The Simple Review
 
-But, after a quick "VAR Review" (checking the facts), I found out the plans changed:
-
-* **New Place:** The final games were moved to **Jeddah, Saudi Arabia**.
-* **New Rules:** They stopped the "Home & Away" games. Now, it is a **"One-game winner takes all"** style.
-* **The Timing:** The Grand Final is on **April 25**. I land in Bangkok one day *after* the trophy is handed out. 😅
-
----
-
-## 📊 The "Scout's Report": Bangkok vs. Jeddah
-I used **Python** to compare my old plan (Bangkok) against the real plan (Jeddah). 
-
-| Part of the Game | My Old Plan (Bangkok) | The Real Plan (Jeddah) |
+| Part of the Plan | My Guess | The Truth (The Bug) |
 | :--- | :--- | :--- |
-| **Game Style** | Spread out (2 games) | **One-game "Blitz"** |
-| **Stadiums** | 3 Stadiums (Less stress) | **2 Stadiums (High stress)** |
-| **Busy Schedule** | 7 Games in 9 Days | **11 Games in 13 Days** |
-| **Grass Condition** | ✅ Good | 🔴 **Bad (Too much use)** |
-| **Trip Result** | ✅ Watching Live | ❌ **Missed it by 1 day** |
+| **Why?** | **War:** I thought games would move. | Games stayed in **Jeddah, Saudi**. |
+| **How?** | **2-Legs:** Games spread out. | **1-Leg:** "Blitz" (One game only). |
+| **When?** | Watch games Apr 26 – May 1. | Final was **Apr 25**. I land **Apr 26**. |
+| **Result** | **Happy Bonus.** | **Missed it by 1 day.** |
 
 ---
 
-## 🧪 The "Busy Score" (BDI)
-The **"Busy Score"** measures how many games are played in one stadium. 
+## 📊 The "Busy Score" Error
+*Why Jeddah is 61% harder on the grass than Bangkok.*
 
-**The Result:** Moving all the games to Jeddah made the schedule **61% more crowded**. For the people looking after the grass, this is a nightmare. There isn't enough time for the pitch to "heal" between games.
-
----
-
-## 🚀 The Main Point
-Even as a fan, you have to check the data! My research shows that the new "One-game" style puts **61% more pressure** on the grass and the staff. 
-
-I missed the game in person, but my code found the real story behind the move. 
+* **Bangkok Plan:** 3 Stadiums = Lots of room and time for the grass to "rest."
+* **Jeddah Plan:** 2 Stadiums + "One-game" style = Too many games in one spot.
+* **The Result:** The schedule in Jeddah is **61% more crowded**.
+* **The Grass:** Because it is 61% busier, the grass has no time to grow back. It will be ruined by the final match.
 
 ---
 
-## 📂 Project Files (Python Scripts)
-Check out the logic I used to find these numbers:
+## 📜 The Safety Rules
 
-* 📈 **[model_bangkok.py](./model_bangkok.py)** - My original research.
-* 📉 **[model_jeddah.py](./model_jeddah.py)** - The "Reality Check" update.
+* **Don't Guess:** Never assume a game will move to your city until the news is official.
+* **Crowd Score:** More games + fewer stadiums = **61% more stress** on the grass.
+* **Timing:** Landing 1 day *after* a trophy is handed out is a "Timing Error."
 
 ---
 
-![ACLE Load Comparison](ACLE.png)
-*A simple look at how much work the stadiums have to do.*
+## 💡 The Conclusion: The Truth
+
+1.  **Main Task (Holiday):** **100% Success.** You are still going to Bangkok!
+2.  **Bonus Task (Football):** **Failed.** The "Coincidence" didn't happen.
+3.  **The Logic:** You used data to find a 61% error in the AFC's official plan.
+
+> **System Check:** You missed the game, but your code proved that the Jeddah plan is much worse for the stadiums than your Bangkok idea.
+
+---
+
+## 📂 Project Files
+* 📈 **[model_bangkok.py](./model_bangkok.py)** — The First Plan.
+* 📉 **[model_jeddah.py](./model_jeddah.py)** — The Reality Check.
+
+---
+
+### ✍️ Credits
+* **Research:** [Wansaidon]
+* **Drafting:** Gemini AI
+  
+---
+
+![ACLE](./ACLE.png)
+**[ END SCRIPT ]**
