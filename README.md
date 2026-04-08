@@ -43,6 +43,9 @@
 
 ---
 
+### 🐍 Python Version
+You can run this guide as a script in your terminal.
+
 ## 📂 Project Files
 * 📈 **[model_bangkok.py](./model_bangkok.py)** — The First Plan.
 * 📉 **[model_jeddah.py](./model_jeddah.py)** — The Reality Check.
